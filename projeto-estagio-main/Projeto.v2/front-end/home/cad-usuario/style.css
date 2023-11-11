@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 
-.cadastro_pessoa {
+.cadastro_usuario {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -18,10 +18,10 @@ body {
     margin: 0 auto; 
     position: relative;
     border: 1px solid #ccc; 
-    margin-top: 450px;
     margin-bottom: 200px;
     z-index: 99999;
 }
+
 #back-button {
     background-color: #007bff;
     color: #fff;
@@ -68,8 +68,6 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-#endereco {
-    margin-top: 20px; 
-    padding: 10px;
-    border: 1px solid #000000; 
+#back-button:hover {
+    background-color: #0056b3;
 }
