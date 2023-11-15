@@ -6,23 +6,7 @@ const users = [];
 
 signupLink.addEventListener('click', function (e) {
     e.preventDefault();
-    loginForm.classList.toggle('hidden');
-    signupForm.classList.toggle('hidden');
-});
-
-loginForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    const user = users.find((u) => u.username === username && u.password === password);
-
-    if (user) {
-        window.location.href = 'http://localhost/projeto-estagio-main/Projeto.v2/front-end/home/menu.html';
-    } else {
-        alert('Login falhou. Verifique suas credenciais.');
-    }
+    window.location.href = 'http://localhost/projeto-estagio-main/Projeto.v2/front-end/home/menu.html';
 });
 
 signupForm.addEventListener('submit', function (e) {
