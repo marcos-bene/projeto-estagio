@@ -1,7 +1,7 @@
 const loginForm = document.getElementById('login-form');
 const signupForm = document.getElementById('signup-form');
 const signupLink = document.getElementById('signup-link');
-const backButton = document.getElementById('back-to-login');
+const backButton = document.getElementById('back-button');
 const users = [];
 
 signupLink.addEventListener('click', function (e) {
@@ -40,6 +40,6 @@ signupForm.addEventListener('submit', function (e) {
     document.getElementById('confirm-password').value = '';
 });
 
-backButton.addEventListener('click', function (e) {
-    window.location.href = 'http://localhost/projeto-estagio-main/Projeto.v2/front-end/home/menu.html';
+backButton.addEventListener('click', function () {
+    window.location.href = 'http://localhost/projeto-estagio-main/Projeto.v2/front-end/home/menu.html'; 
 });
